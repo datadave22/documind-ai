@@ -1,0 +1,21 @@
+{
+  "name": "@documind/ai",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "openai": "^4.20.0",
+    "@qdrant/js-client-rest": "^1.7.0",
+    "gpt-tokenizer": "^2.1.1",
+    "pino": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
